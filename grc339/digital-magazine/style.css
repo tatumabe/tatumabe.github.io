@@ -8,7 +8,7 @@ img {
 }
 
 body {
-    font-family: serif;
+    background-color: #fffaea;
 }
     
 
@@ -22,20 +22,23 @@ h1 {
     padding: 1.5rem 1rem;
 }
 
+h1 img {
+    width: 15em;
+}
+
 nav ul {
     margin-bottom: 1rem;
 }
 
 nav ul li {
 	list-style-type: none;
-    font-family: sans-serif;
-	font-weight: bold;
-    font-size: 1.5em;
+    font-family: "espiritu";
+    font-size: 1.2em;
     padding: 0.5rem 1rem 0rem;
 }
 
 nav ul li a {
-    color: rgb(92, 118, 150) 
+    color: #4c91ff; 
 }
    
 a {
@@ -43,35 +46,38 @@ a {
 }
 
 h2 {
-    font-family: serif;
-    font-weight: bold;
+    font-family: "espiritu";
     font-size: 3em;
-    color: rgb(92, 118, 150);
+    color: #4c91ff;
     padding: 0.5rem 1rem 0rem;
 }
 
 p {
-    font-family: sans-serif;
+    font-family: "articulat-CF";
     font-size: 1em;
     line-height: 1.2;
-    color: rgb(0, 0, 0);
+    color: #704f48;
     padding: 0rem 1rem 0.5rem;
 }
 
 section.secondary h2 {
-    font-family: serif;
-    font-weight: bold;
-    font-size: 1.8em;
-    color: rgb(92, 118, 150);
+    font-family: "espiritu";
+    font-size: 1.5em;
+    line-height: 1.2;
+    padding: 0.4em 0;
+    color: #4c91ff;
+}
+
+section.secondary p {
+    padding-bottom: 2em;
 }
 
 section.tertiary h2 {
-    font-family: serif;
-    font-weight: bold;
+    font-family: "espiritu";
     font-size: 1.3em;
-    color: rgb(92, 118, 150);
+    color: #4c91ff;
     padding: 0.8rem 0rem 0rem;
-    border-top: 2px solid rgb(92, 118, 150);
+    border-top: 2px solid #b2ab2b;
     margin: 1rem 0.5rem 0rem;
 }
 
@@ -84,21 +90,21 @@ article p {
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: "articulat-cf";
     font-size: 1.3em;
     font-style: italic;
     line-height: 1.2;
-    color: #555555;
+    color: #704f48;
     padding: 0.5rem 1rem 1.5rem;
 }
 
 aside {
-    background-color: rgb(203, 207, 255);
+    background-color: #ddeaff;
     padding: 1rem;
 }
 
 footer {
-    background-color: rgb(92, 118, 150);
+    background-color: #4c91ff;
     font-family: sans-serif;
     height: 3rem; 
     width: 100%;
@@ -137,7 +143,7 @@ footer p {
     }
 
     article h2 {
-        padding: 3rem 0rem 1rem;
+        padding: 1rem 0rem;
     }
 
     figcaption {
