@@ -25,11 +25,7 @@ div.news {
 }
 
 h1 {
-    width: 10em;
-    padding: 1.5rem 1rem;
-}
-
-h1 img {
+    padding: 2rem 0 3rem;
     width: 15em;
 }
 
@@ -251,8 +247,8 @@ footer p {
 @media only screen and (min-width: 30em) {
 	
     h1 {
-        padding: 1.5rem 0;
-        width: 10em;
+        width: 15em;
+        padding: 2rem 0 3rem;
     }
     
     nav ul li {
@@ -404,5 +400,69 @@ footer p {
 
     section.secondary a p {
         flex: 0 0 4em;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #704f48;
+    }
+
+    h1 {  
+        background-image: url("BoundBookClubDarkLogo.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 img {  
+        opacity: 0;
+    }
+
+    nav ul li a {
+        color: #b2ab2b; 
+    }
+           
+    h2 {
+        color: #b2ab2b;
+    }
+
+    p {
+        color: #fffaea;
+    }
+
+    section.secondary h2 {
+        color: #b2ab2b;
+    }
+
+    section.tertiary h2 {
+        color: #b2ab2b;
+        border-top: 2px solid #4c91ff;
+    }
+
+    div.emily aside {
+        background-color: #b2ab2b;
+    }
+
+    div.emily aside h2 {
+        color: #ddeaff;
+    }
+
+    figcaption {
+        color: #fffaea;
+    }
+
+    section.personal-info ul li label {
+        color: #ddeaff;
+    }
+
+    section.genres ul li {
+        color: #ddeaff;
+    }
+        
+    section.genres h3 {
+        color: #b2ab2b;
     }
 }
